@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="icon" type="img/png" href="./img/Web_Dream-1.png">
-	<title>My Linear Background</title>
 	<link rel="stylesheet" type="text/css" href="./css/dream.css">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css">
+	<link rel="icon" type="img/png" href="./img/Web_Dream-1.png">
+	<title>Dream Vag: Home For The Future</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./css/dream.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 	<meta name="Author" content="Ahamisi Godsfavour">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-
+	<meta name="description" content="Ahamisi Godsfavour is an experienced web developer that uses his skill to solve human problems and give it solutions . Aceman is the best for your Job Because he ace codes">
+	<meta name="keywords" content="aceman , codewonders.us , start up design, software, code, tech, computer stuff, store, couture, html, css, javascript, websites, website development, web development, design, ui, ux , Ahamisi Godsfavour , dream vag" />
+	<meta property="og:locale" content="en-US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Ahamisi Godsfavour" />
+	<meta property="og:description" content="Ahamisi GodsFavour is an experienced web developer that uses his skill to solve human problems and give it solutions . CODEWONDERS is the best for your Job Because he ace codes" />
+	<meta property="og:url" content="http://www.codewonders.us/" />
+	<meta property="og:site-name" content="Ahamisi GodsFavour - AceMan" />
+	<meta property="article:publisher" content="Ahamisi GodsFavour - AceMan" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Ahamisi GodsFavour " />
+	<meta name="twitter:site" content="@ahamisi_codes" />
+	<meta name="twitter:domain" content="Ahamisi GodsFavour is an experienced web developer that uses his skill to solve human problems and give it solutions . Aceman is the best for your Job Because he ace codes" />
 </head>
 <body>
+
 	<header class="thing">
-			<nav class="navbar navbar-inverse navbar-static-top">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header">
 						<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,7 +43,7 @@
 				        <span class="icon icon-bar"></span>
 				        <span class="icon icon-bar"></span>
 				      </button>
-						<li><a href="#" class="navbar-brand"><span class="spn1">Dream</span> <i class="vag">Vag</i></a></li>
+						<li><a href="#" class="navbar-brand"><span class="spn1">Dream <span class="vag">Vag</span></span></a></li>
 					</div>
 					<div class="nav1 collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
@@ -38,14 +60,14 @@
 		</div>
 		<div class="">
 			<div class="text1">
-				<h1>Dream <span class="spn1">Vag</span></h1>
-				<h3 class="text1a">We <span class="spn1">Give</span> You <span class="spn1">  	A </span>Reason <span class="spn1">To</span> Fuel <span class="spn1">Your</span> Hustle</h3>
-				<button class="btn" data-toggle="modal" data-target="#myModal1">Its' Live</button> &nbsp; <button class="btn" id="but">Let's Go</button>
+				<h1 class="animated slideInDown">Dream <span class="spn1">Vag</span></h1>
+				<h3 class="text1a animated slideInLeft" id="tell">We <span class="spn1">Give</span> You <span class="spn1">  	A </span>Reason <span class="spn1">To</span> Fuel <span class="spn1">Your</span> Hustle</h3>
+				<button class="animated slideInLeft btn" data-toggle="modal" data-target="#myModal1" id="slideBtn">Its' Live</button> &nbsp; <a href="dreamVagrgst.html"><button class="btn animated slideInRight" id="but">Let's Go</button></a>
 			</div>
 		</div>
 	</header><br><br><br><br><br><br><br><br><br><br><br>
 	<section>
-		<div class="container teamers">
+		<div class="container teamers animated bounce">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="well">
@@ -65,7 +87,7 @@
 							<img src="./img/Web_Dream-1.png">
 						</div>
 						<h4>Perfection is key. So We have lots of lined up profssionals to meet your various needs. All ou need do is dream high and dream vag takes  <br>over.</h4>
-						<button class="btn">Register</button>
+						<button class="btn" data-toggle="modal" data-target="#myModal1">Register</button>
 					</div>
 				</div>
 
@@ -76,7 +98,7 @@
 							<img src="./img/Web_Dream-1.png">
 						</div>
 						<h4>Our deployment to the world is a tight niche for our brand. we tend to get our products accessible accross every spheres of  <br>life</h4>
-						<button class="btn">Register</button>
+						<button class="btn" data-toggle="modal" data-target="#myModal">Register</button>
 					</div>
 				</div>
 			</div>	<br><br><br><br><br><br><br>
@@ -88,7 +110,7 @@
 							<img src="./img/Web_Dream-1.png">
 						</div>
 						<h4>Technicality and functionality just makes our brand go "gaga". Timing of production track and unvieling takes all the hard job. With our full equiped staffs we tend to deliver</h4>
-						<button class="btn">Register</button>
+						<button class="btn" data-toggle="modal" data-target="#myModal1">Register</button>
 					</div>
 				</div>
 
@@ -99,7 +121,7 @@
 							<img src="./img/Web_Dream-1.png">
 						</div>
 						<h4>Taking records is another key framework. There is no limit to accesibility with our large database <br>We've got you  <br>covered</h4>
-						<button class="btn" >Register</button>
+						<button class="btn" data-toggle="modal" data-target="#myModal" >Register</button>
 					</div>
 				</div>
 
@@ -122,7 +144,7 @@
 					<p class="p1">We bring tem into actualization by proferring  <br>the right steps and change to make Reality. <br> It's Quite Easy isnt it?</p>
 					<button class="btn" >Try It</button>
 				</div>
-				<h1 style="transform: skew(0deg, -15deg);" align="center">Firms We Have Partnered With</h1>
+				<h1 style="transform: skew(0deg, -15deg);" align="center">Our Partners</h1>
 			</div>
 		</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="firm">
@@ -207,13 +229,6 @@
 		      <div class="carousel-caption">
 		        <h1>Learn to code</h1>
 		        <p>LA is always so much fun!</p>
-		        <button class="btn btn-danger">lets go</button>
-		      </div>
-		    </div>
-
-		    <div class="item">
-		      <img src="img/bg1.jpg" alt="Chicago">
-		      <div class="carousel-caption">
 		        <h1>Easy coding</h1>
 		        <p>LA is always so much fun!</p>
 		        <button class="btn btn-warning">lets go</button>
@@ -246,7 +261,7 @@
 				<div class="jumbotron">
 					<h2 align="left">Our Mission</h2>
 					<p align="left">
-						Is to train, nuture and groe startups and ideas. thus bringing about a boom in tech Industry In Nigeria and in te whole world at large
+						Is to train, nuture and grow startups and ideas. thus bringing about a boom in tech Industry In Nigeria and in te whole world at large
 					</p>
 				</div>
 			</div>
@@ -266,9 +281,16 @@
 						</div>
 						<div class="">
 							<div><h3>copyright @ dream-vag inc</h3>2018<br></div>
+							<div>with <i class="fa fa-heartbeat fa-2x 
+glyphicon glyphicon-heart-empty text-center"></i> for the aceman</div>
+<i class="glyphicon glyphicon-heart"></i>
+<i class="fa-heart"></i>
 						</div>
 						<div class="col-md-4">
-						
+							 <!-- <div class="col-md-6">
+                        <i class="fa fa-heartbeat fa-3x text-purple"></i>
+                        <h5  class="text-left texter">Customer Protection</h5>
+                      </div> -->
 						</div>
 					</div>
 				</div>
@@ -285,12 +307,7 @@
 		      </div>
 		      <div class="modal-body">
 		    <h3>cool codes</h3>
-		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	s</p>
+		    <p style="font-size:18px">We launched it on our opening gala. it promises to servr maximum utility. Thus bringing an upfront boom in tech and other industries all over the world</p>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -322,11 +339,11 @@
 		        	<label>password</label>
 		        	<input type="password" class="form-control"><br>	
 		        </div>
-		        <button class="btn btn-danger btn-block">submit</button>
+		        <button class="btn btn-success btn-block" style="background-color: #ca0709">submit</button>
 		    </p>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-default  	" data-dismiss="modal">Close</button>
 		      </div>
 		    </div>
 
@@ -346,6 +363,61 @@
 		if (x < 1000) {
 			alert("x is less than 1000")
 		}
+
+var app = {
+  particles:function() {
+       window.onload = function() {
+
+            Particles.init({
+              
+            // normal options
+              selector: '.background',
+              color:'#616161c9',
+              maxParticles: 250,
+              connectParticles: false,
+              
+            // options for breakpoints
+            //   responsive: [
+            //     {
+            //       breakpoint: 868,
+            //       options: {
+            //         maxParticles: 130,
+            //         // color:'#d8d8d8',
+            //         connectParticles: false
+            //       }
+            //     }, {
+            //       breakpoint: 425,
+            //       options: {
+            //        maxParticles: 130,
+            //         // color:'#d8d8d8',
+            //         connectParticles: false
+            //       }
+            //     }, {
+            //       breakpoint: 320,
+            //       options: {
+            //         maxParticles: 130
+             
+            // // disables particles.js
+            //       }
+            //     }
+            //   ]
+            });
+      };
+
+  
+    },
 	</script>
+	<script type="text/javascript">
+  var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </body>
 </html>
